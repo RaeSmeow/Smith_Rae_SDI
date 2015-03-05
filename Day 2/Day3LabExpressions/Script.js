@@ -4,3 +4,10 @@
  Section 00
  Day 3, Lab Expressions
  */
+//Calculate the area of a rectangle
+var width = 6;
+var height = 4.5;
+//multiply width * height
+var area = width * height;
+//Output Area
+console.log(“The area of the rectangle is “ + area );
