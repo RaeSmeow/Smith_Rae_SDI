@@ -11,3 +11,13 @@ var height = 4.5;
 var area = width * height;
 //Output Area
 console.log(“The area of the rectangle is “ + area );
+
+//Creating an expression to see how much pizza people can eat
+var # ofSlicesOfPizza
+var # ofPeopleAtTheParty
+var # ofPizzasOrdered
+console.log (ofSlicesOfPizza);
+console.log (ofPeopleAtTheParty);
+console.log (OfPizzasOrdered);
+
+var
