@@ -44,7 +44,7 @@ a=a+3;
 console.log(a);
 
 
-//Declare enw variable
+//Declare new variable
 var b;
 
 //Define this variable using an existing variable
