@@ -25,7 +25,7 @@ var num = 3;
 console.log(avengersNames[num]);
 
 //Find the length of an array
-//length property = how many items are in the array
+//Length property = how many items are in the array
 //dot syntax - fancy for use a period
 console.log(avengersNames.length);
 
@@ -47,7 +47,24 @@ console.log("The total number of oranges picked is "+totalOranges + ".");
 var averageOranges = totalOranges/orangesPicked.length;
 console.log("The average number of oranges picked per day is" +averageOranges+".");
 
+//Create an array of fruit
+var fruitBowl = ["Apple", "Mango", "Grape", "Banana"];
+console.log(fruitBowl);
 
+//Push - add item into the next open spot
+//dot syntax - use a period
+fruitBowl.push("Strawberry");
+console.log(fruitBowl);
 
+fruitBowl.push("Pineapple");
+console.log(fruitBowl);
 
+//pop() - removes the last item from the array
+// - it also returns the item
+var caughtItem = fruitBowl.pop();
+var caughtStrawberry = fruitBowl.pop();
+
+console.log(fruitBowl);
+console.log(caughtItem);
+console.log (caughtStrawberry);
 
