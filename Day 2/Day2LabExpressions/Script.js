@@ -10,37 +10,38 @@ var height = 4.5;
 //multiply width * height
 var area = width * height;
 //Output Area
-console.log(“The area of the rectangle is “ + area );
+console.log("The " + area + " of the rectangle is " + area);
 
 //alert Connectivity
 
 //Creating an expression to see how much pizza people can eat
 //Each person are X slices of pizza at the party.
 //Create a formula.
-assign #ofPeople = 5;
-assign #ofPizzas = 3;
-assign #ofPiecesOfPizza = 5
-assign #ofPeople + #ofPizzas + #ofPiecesOfPizza
-//Answer is 3 pieces of pizza for each person. 
+var ofPeople = 5;
+var ofPizzas = 3;
+var piecesOfPizza = 5;
+newVar = ofPeople + (piecesofPizzas * ofPizza)
+//Answer is 3 pieces of pizza for each person.
 console.log(assign);
 
 //Sparky
-assign #ofPeople = 10;
-assign #ofPizzas = 4;
-assign #ofPiecesOfPizza = 8 perPizza;
+var #ofPeople = 10;
+var #ofPizzas = 4;
+var #ofPiecesOfPizza = 8 perPizza;
 //Each person eats 3 slices of pizza.
 //Their will be .67 of a piece left for Sparky to eat.
 
 //Money spent on groceries over the past five weeks.
-assign #OfWeeksOfGroceries = 5;
-assign totalAmount = 300;
-assign estimateSpending = 500;
+var #OfWeeksOfGroceries = 5;
+var totalAmount = 300;
+var estimateSpending = 500;
 console.log(assign);
 
 //Discounted prices on items
-assign orginalPrice = 199.99;
-assign discountPercentage = 20;
-assign item = TV;
-assign salesTaxPercentage = 39.998;
+var originalPrice = 199.99;
+var discountPercentage = 20;
+var item = TV;
+var discount = 39.998;
+var salesTaxPercentage = .2;
 console.log(assign);199.99 - 39.998 = 160.00
 
