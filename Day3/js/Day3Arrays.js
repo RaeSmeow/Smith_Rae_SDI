@@ -67,4 +67,3 @@ var caughtStrawberry = fruitBowl.pop();
 console.log(fruitBowl);
 console.log(caughtItem);
 console.log (caughtStrawberry);
-

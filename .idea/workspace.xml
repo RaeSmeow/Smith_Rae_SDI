@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d8c77f7-4f02-4fd2-b1d5-d9bdd2bec5c2" name="Default" comment="" />
+    <list default="true" id="8d8c77f7-4f02-4fd2-b1d5-d9bdd2bec5c2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day3/js/Day3Arrays.js" afterPath="$PROJECT_DIR$/Day3/js/Day3Arrays.js" />
+    </list>
     <ignored path="Smith_Rae_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="Day3Arrays.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day3/js/Day3Arrays.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="475" max-vertical-offset="1140">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -36,24 +38,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day3Prompts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day3/Day3Prompts.html">
+      <file leaf-file-name="Day3Prompts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day3/js/Day3Prompts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
-              <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
+              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day3Casting.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day3/Day3Casting.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+              <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day3Prompts.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day3/js/Day3Prompts.js">
+      <file leaf-file-name="Day3Casting.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day3/js/Day3Casting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7218045" vertical-offset="0" max-vertical-offset="665">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.86466163" vertical-offset="310" max-vertical-offset="975">
+              <caret line="59" column="60" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="60" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -75,9 +87,12 @@
         <option value="$PROJECT_DIR$/Day 2/Day2LabExpressions/Script.js" />
         <option value="$PROJECT_DIR$/Day3/js.js" />
         <option value="$PROJECT_DIR$/Day3/Day3Arrays.html" />
-        <option value="$PROJECT_DIR$/Day3/js/Day3Arrays.js" />
         <option value="$PROJECT_DIR$/Day3/Day3Prompts.html" />
         <option value="$PROJECT_DIR$/Day3/js/Day3Prompts.js" />
+        <option value="$PROJECT_DIR$/Day3/js/Day3Arrays.js" />
+        <option value="$PROJECT_DIR$/Day3/Day3Casting.js" />
+        <option value="$PROJECT_DIR$/Day3/Day3Casting.html" />
+        <option value="$PROJECT_DIR$/Day3/js/Day3Casting.js" />
       </list>
     </option>
   </component>
@@ -227,6 +242,11 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="FullScreen" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Day3/js" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <method />
@@ -375,31 +395,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day3/js/Day3Arrays.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="460" max-vertical-offset="1140">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day3/Day3Prompts.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="240">
+        <state vertical-scroll-proportion="0.11700468" vertical-offset="0" max-vertical-offset="641">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day3/js/Day3Arrays.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day3/js/Day3Prompts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7218045" vertical-offset="0" max-vertical-offset="665">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="570">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3/Day3Casting.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.25" vertical-offset="0" max-vertical-offset="240">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day3/js/Day3Casting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.86466163" vertical-offset="310" max-vertical-offset="975">
+          <caret line="59" column="60" selection-start-line="59" selection-start-column="60" selection-end-line="59" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
