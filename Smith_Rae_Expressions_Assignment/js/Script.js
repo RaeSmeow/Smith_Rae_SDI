@@ -14,15 +14,14 @@ var numbers= ["8", "5", "Add"];
 var userInput = prompt("Please enter a number.");
 numbers[0] = userInput;
 //console.log(numbers[0]);
-
+while(true)
+{
 //Asking to add or subtract.
 userInput = prompt("Would you like to Add or Subtract?");
 numbers[1] = userInput;
 //console.log(numbers[1]);
 
 //If User puts something other then add or subtract.
-
-while(true) {
 //Checking to see if it's addition or subtraction.
     if (numbers[1] == "add" || numbers[1] == "Add") {
         //Inputting another number for addition.
