@@ -11,8 +11,15 @@ Expressions Assignment
 var numbers= ["8", "5", "Add"];
 
 //Inputting number.
-var userInput = prompt("Please enter a number.");
-numbers[0] = userInput;
+while(true) {
+    var userInput = prompt("Please enter a number.")
+    if(Number(userInput) || userInput == 0) {
+        numbers[0] = userInput;
+        break;
+    }
+
+}
+
 //console.log(numbers[0]);
 while(true)
 {
@@ -25,9 +32,16 @@ numbers[1] = userInput;
 //Checking to see if it's addition or subtraction.
 
     if (numbers[1] == "add" || numbers[1] == "Add") {
-        //Inputting another number for addition.
-        userInput = prompt("Please enter a number to Add.");
-        numbers[2] = userInput;
+
+            //Inputting another number for addition.
+        while(true) {
+            userInput = prompt("Please enter a number to Add.");
+            if (Number(userInput)|| userInput == 0) {
+                numbers[2] = userInput;
+                break;
+            }
+        }
+
 
         //Creating a string for the answer.
         var answer = Number(numbers[0]) + Number(numbers[2]);
@@ -37,9 +51,15 @@ numbers[1] = userInput;
         break;
     }
     if (numbers[1] == "Subtract" || numbers[1] == "subtract") {
-        //Inputting another number for subtraction.
-        userInput = prompt("Please enter a number to Subtract.");
-        numbers[2] = userInput;
+            //Inputting another number for subtraction.
+        while(true) {
+            userInput = prompt("Please enter a number to Subtract.");
+            if (Number(userInput) || userInput == 0) {
+                numbers[2] = userInput;
+                break;
+            }
+        }
+
 
         //Creating a string for the answer.
         var answer = Number(numbers[0]) - Number(numbers[2]);
