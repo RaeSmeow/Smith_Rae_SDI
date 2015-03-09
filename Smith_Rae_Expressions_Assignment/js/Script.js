@@ -23,6 +23,7 @@ numbers[1] = userInput;
 
 //If User puts something other then add or subtract.
 //Checking to see if it's addition or subtraction.
+
     if (numbers[1] == "add" || numbers[1] == "Add") {
         //Inputting another number for addition.
         userInput = prompt("Please enter a number to Add.");
