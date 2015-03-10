@@ -7,10 +7,10 @@ Conditionals Worksheet
 
 //alert("Testing.");
 
-//Group 1, Converting Celsius to Fahrenheit. 
+//Group 1, Converting Celsius to Fahrenheit.
 var temp = 0;
 
-var conversion = ("C");''
+var conversion = ("C");'';
 
 var temp2 = 0;
 
@@ -38,18 +38,30 @@ while(true) {
 }
 
 
-//Group 2,Grade Letter Calculator.
+//Group 2, Grade Letter Calculator.
 
-var grade = 0;
+var grade = "";
+var gradeA = 100;
+var gradeB = 89;
+var gradeC = 79;
+var gradeD = 72;
+var gradeF = 69;
 
-while(true) {
     var userInput = prompt("Please enter your grade. (Group 2)");
-    if (Number(userInput)|| userInput == 0) {
-        grade = userInput;
-        console.log("You got a " + grade);
-        break;
-    }
-}
+
+    if (userInput >= gradeA){
+        grade = "A";
+    }else if(userInput >= gradeB){
+        grade = "B";
+    }else if(userInput >= gradeC){
+        grade = "C"
+
+    }else if(userInput >= gradeD){
+        grade = "D"
+    }else if(userInput >= gradeF){}
+        grade = "F"
+
+console.log("You got a " + grade);
 
 //Group 3, Movie Ticket Price
 
@@ -68,11 +80,11 @@ while(true) {
 while(true) {
     var userInput = prompt("Please enter your age.");
     if (Number(userInput) || userInput == 0) {
-        age = userInput
+        age = userInput;
         break;
     }
 }
-if (age >= 55 || age <= 10 || time >= 15 || time <= 17)
+if ((age >= 55 || age <= 10 ) || ( time >= 15 && time <= 17))
 {
     console.log("Your ticket price $7.00.");
 }
