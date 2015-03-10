@@ -56,4 +56,3 @@ Day 4 Logicial
      console.log("Pick a cheaper car, or find a better job.");
  }
 
- 
