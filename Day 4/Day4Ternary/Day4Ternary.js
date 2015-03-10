@@ -50,4 +50,3 @@ Day 4 Ternary
  }
 
  console.log(bookBasic);
- 
