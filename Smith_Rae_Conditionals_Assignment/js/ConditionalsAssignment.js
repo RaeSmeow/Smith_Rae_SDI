@@ -9,7 +9,7 @@ Scalable Data Infrastructures
 //alert("Testing.");
 
 //Initializing an array.
-var numbers= ["17", "42", "Add"];
+var numbers= ["17", "42", "Add", "Subtract", "Multiply", "Divide"];
 
 //Inputting number.
 while(true) {
@@ -133,3 +133,4 @@ while(true)
     }
 }
 
+//The End.
