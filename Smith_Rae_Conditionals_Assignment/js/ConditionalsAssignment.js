@@ -21,7 +21,6 @@ while(true) {
             break;
         }
     }
-
 }
 
 //console.log(numbers[0]);
@@ -38,7 +37,7 @@ while(true)
 //If User puts something other then add or subtract.
 //Checking to see if it's addition or subtraction.
 
-    if (numbers[1] == "add" || numbers[1] == "Add") {
+    if (numbers[1] == "Add" || numbers[1] == "add" || numbers[1] == "+") {
 
         //Inputting another number for addition.
         while(true) {
@@ -61,7 +60,7 @@ while(true)
         console.log(numbers[0] + " + " + numbers[2] + " = " + answer);
         break;
     }
-    else if (numbers[1] == "Subtract" || numbers[1] == "subtract") {
+    else if (numbers[1] == "Subtract" || numbers[1] == "subtract" || numbers[1] == "-") {
         //Inputting another number for subtraction.
         while(true) {
             userInput = prompt("Please enter a number to Subtract.");
@@ -83,7 +82,7 @@ while(true)
         console.log(numbers[0] + " - " + numbers[2] + " = " + answer);
         break;
     }
-    else if (numbers[1] == "Multiply" || numbers[1] == "multiply") {
+    else if (numbers[1] == "Multiply" || numbers[1] == "multiply" || numbers[1] == "*") {
 
         //Inputting another number for addition.
         while(true) {
@@ -106,7 +105,8 @@ while(true)
         console.log(numbers[0] + " * " + numbers[2] + " = " + answer);
         break;
     }
-    else if (numbers[1] == "Divide" || numbers[1] == "divide") {
+
+    else if (numbers[1] == "Divide" || numbers[1] == "divide" || numbers[1] == "/") {
         //Inputting another number for subtraction.
         while(true) {
             userInput = prompt("Please enter a number to divide.");
