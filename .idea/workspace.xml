@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d8c77f7-4f02-4fd2-b1d5-d9bdd2bec5c2" name="Default" comment="" />
+    <list default="true" id="8d8c77f7-4f02-4fd2-b1d5-d9bdd2bec5c2" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day5/js/Day 5 Nesting Ifs.js" afterPath="$PROJECT_DIR$/Day5/js/Day 5 Nesting Ifs.js" />
+    </list>
     <ignored path="Smith_Rae_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +39,8 @@
       <file leaf-file-name="Day 5 Nesting Ifs.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day5/js/Day 5 Nesting Ifs.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2787162" vertical-offset="0" max-vertical-offset="592">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7972973" vertical-offset="173" max-vertical-offset="930">
+              <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -80,8 +82,8 @@
         <option value="$PROJECT_DIR$/Day5/js/Day 5.js" />
         <option value="$PROJECT_DIR$/Day5/Day5Steaks.html" />
         <option value="$PROJECT_DIR$/Day5/js/Day 5 Steaks.js" />
-        <option value="$PROJECT_DIR$/Day5/js/Day 5 Nesting Ifs.js" />
         <option value="$PROJECT_DIR$/Day5/Day 5 Nesting Ifs.html" />
+        <option value="$PROJECT_DIR$/Day5/js/Day 5 Nesting Ifs.js" />
       </list>
     </option>
   </component>
@@ -756,8 +758,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day5/js/Day 5 Nesting Ifs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2787162" vertical-offset="0" max-vertical-offset="592">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7972973" vertical-offset="173" max-vertical-offset="930">
+          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
           <folding />
         </state>
       </provider>
