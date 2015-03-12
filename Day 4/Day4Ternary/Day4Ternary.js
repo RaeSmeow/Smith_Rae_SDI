@@ -36,7 +36,7 @@ Day 4 Ternary
 
  book = (age < 10) ? "Green Eggs and Ham" : "The Time Machine";
 
- console.log("The kid should read "+book".");
+ console.log("The kid should read "+book);
 
 
  //Value of book if basic conditional.

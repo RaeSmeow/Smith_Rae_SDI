@@ -11,7 +11,7 @@ Scalable Data Infrastructures
 //Initializing an array.
 var numbers= ["17", "42", "Add", "Subtract", "Multiply", "Divide"];
 
-//Inputting number.
+//Inputting the first number.
 while(true) {
     var userInput = prompt("Please enter a number.")
     var check = (userInput == "") ? false : true ;
@@ -26,7 +26,7 @@ while(true) {
 //console.log(numbers[0]);
 while(true)
 {
-//Asking to add or subtract.
+//Asking to add, subtract, multiply or divide.
     userInput = prompt("Would you like to Add, Subtract, Multiply or Divide?");
     var check = (userInput == "") ? false : true ;
     if(check) {
@@ -34,8 +34,8 @@ while(true)
     }
 //console.log(numbers[1]);
 
-//If User puts something other then add or subtract.
-//Checking to see if it's addition or subtraction.
+//If User puts something other then addition, subtraction, multiplication, or division.
+//Checking to see what the User put in.
 
     if (numbers[1] == "Add" || numbers[1] == "add" || numbers[1] == "+") {
 
