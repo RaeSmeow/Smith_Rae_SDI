@@ -122,7 +122,7 @@ while(true)
 
 
         //Creating a string for the answer.
-        var answer = Number(numbers[0]) - Number(numbers[2]);
+        var answer = Number(numbers[0]) / Number(numbers[2]);
 
         //Showing the answer to the User.
         console.log(numbers[0] + " / " + numbers[2] + " = " + answer);
