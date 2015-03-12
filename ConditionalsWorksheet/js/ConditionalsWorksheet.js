@@ -41,13 +41,15 @@ while(true) {
 //Group 2, Grade Letter Calculator.
 
 var grade = "";
-var gradeA = 100;
-var gradeB = 89;
-var gradeC = 79;
-var gradeD = 72;
+var gradeA = 90;
+var gradeB = 85;
+var gradeC = 76;
+var gradeD = 70;
 var gradeF = 69;
 
+
     var userInput = prompt("Please enter your grade. (Group 2)");
+userInput = parseInt(userInput);
 
     if (userInput >= gradeA){
         grade = "A";
@@ -55,11 +57,11 @@ var gradeF = 69;
         grade = "B";
     }else if(userInput >= gradeC){
         grade = "C"
-
     }else if(userInput >= gradeD){
         grade = "D"
-    }else if(userInput >= gradeF){}
+    }else if(userInput <= gradeF){
         grade = "F"
+    }
 
 console.log("You got a " + grade);
 
