@@ -36,4 +36,5 @@ Do{
      I++
  } while(I < 100);
 
+//Supposed make a new page and stuff but I'ma keep this one.
  
