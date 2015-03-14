@@ -42,4 +42,3 @@ Day 5 Steaks
  } else {
      console.log("Your steak is burnt.");
  }
-
