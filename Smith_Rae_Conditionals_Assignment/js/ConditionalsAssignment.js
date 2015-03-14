@@ -7,138 +7,216 @@ Scalable Data Infrastructures
  */
 
 //alert("Testing.");
-
-//Initializing an array.
-var numbers= ["17", "42", "Add"];
-
-//Loop for validation.
-while(true) {
-    //Prompting the User for the first number.
-    var userInput = prompt("Please enter a number.");
-    //Checking to see if the User inputted nothing.
-    var check = (userInput == "") ? false : true ;
-    //Conditional to make sure the user didn't input nothing.
-    if(check) {
-        //Conditional to check to make sure the user inputted a number.
-        if (Number(userInput) || userInput == 0) {
-            //Setting the first number in the array to the inputted number.
-            numbers[0] = userInput;
-            //Breaking from the loop.
-            break;
-        }
-    }
-}
-
-//Loop for validation.
+// variable to check and see if prompts are valid
+var check = false;
+// random values for the lottery
+var lottery = [Math.round(Math.random() * 100), Math.round(Math.random() * 100), Math.round(Math.random() * 100), Math.round(Math.random() * 100), Math.round(Math.random() * 100)];
+// values the user will input for there guess
+var lotteryCheck = [1,2,3,4,5]
+//loop for validation
 while(true)
 {
-//Asking to add, subtract, multiply or divide.
-    userInput = prompt("Would you like to Add, Subtract, Multiply or Divide?");
-    //Checking to see if the user inputted nothing.
-    var check = (userInput == "") ? false : true ;
-    //Conditional to make sure the user didn't input nothing.
-    if(check) {
-        //Setting the string in the array to the inputted string.
-        numbers[1] = userInput;
+    // prompting the user for a value and storing it at sub 0
+    lotteryCheck[0] = prompt("Please enter the first of your Lottery Numbers.");
+    // checking to see if they entered anything
+    (lotteryCheck[0] == "") ?check = true:check = false;
+    if(check)
+    {
+        //if they entered nothing telling them so and reprompting the user.
+        console.log("Please enter something");
+        continue;
     }
-//console.log(numbers[1]);
-
-//If User puts something other then addition, subtraction, multiplication, or division, prompt will pop back up.
-
-//Checking to see what the User put in.
-    if (numbers[1] == "Add" || numbers[1] == "add" || numbers[1] == "+") {
-
-        //Loop for validation.
-        while(true) {
-            //Prompting the User to input another number.
-            userInput = prompt("Please enter a number to Add.");
-            //Checking to see if the user inputted nothing.
-            var check = (userInput == "") ? false : true ;
-            //Conditional to make sure the user didn't input nothing.
-            if(check) {
-                //Conditional to check to make sure the user inputted a number.
-                if (Number(userInput) || userInput == 0) {
-                    //Setting the second number in the array to inputted number.
-                    numbers[2] = userInput;
-                    //Breaking from the loop.
-                    break;
-                }
-            }
-        }
-
-        //Creating a string for the answer.
-        var answer = Number(numbers[0]) + Number(numbers[2]);
-
-        //Showing the answer to the User.
-        console.log(numbers[0] + " + " + numbers[2] + " = " + answer);
-        //Breaking from the loop.
+    //checking to see if the number is out of range
+    else if(Number(lotteryCheck[0]) >99 || Number(lotteryCheck[0] < 0))
+    {
+        //if so we tell them and reprompt them.
+        console.log(("Please pick a number between 0 and 100"))
+        continue;
+    }
+    //making sure it's a number
+    else if (Number(lotteryCheck[0]))
+    {
+        //if so telling them what they picked.
+        console.log("You've picked the #"+ lotteryCheck[0])
         break;
     }
-    else if (numbers[1] == "Subtract" || numbers[1] == "subtract" || numbers[1] == "-") {
-        //Inputting another number for subtraction.
-        while(true) {
-            userInput = prompt("Please enter a number to Subtract.");
-            var check = (userInput == "") ? false : true ;
-            if(check) {
-                if (Number(userInput) || userInput == 0) {
-                    numbers[2] = userInput;
-                    break;
-                }
-            }
-        }
-
-        //Creating a string for the answer.
-        var answer = Number(numbers[0]) - Number(numbers[2]);
-
-        //Showing the answer to the User.
-        console.log(numbers[0] + " - " + numbers[2] + " = " + answer);
-        break;
+    //otherwise we just reprompt them again.
+    else{
+        continue;
     }
-    else if (numbers[1] == "Multiply" || numbers[1] == "multiply" || numbers[1] == "*") {
-
-        //Inputting another number for addition.
-        while(true) {
-            userInput = prompt("Please enter a number to multiply.");
-            var check = (userInput == "") ? false : true ;
-            if(check) {
-                if (Number(userInput) || userInput == 0) {
-                    numbers[2] = userInput;
-                    break;
-                }
-            }
-        }
-
-        //Creating a string for the answer.
-        var answer = Number(numbers[0]) * Number(numbers[2]);
-
-        //Showing the answer to the User.
-        console.log(numbers[0] + " * " + numbers[2] + " = " + answer);
-        break;
+}
+while(true)
+{
+    lotteryCheck[1] = prompt("Please enter the second of your Lottery Numbers.");
+    (lotteryCheck[1] == "") ?check = true:check = false;
+    if(check)
+    {
+        console.log("Please enter something");
+        continue;
     }
-
-    else if (numbers[1] == "Divide" || numbers[1] == "divide" || numbers[1] == "/") {
-        //Inputting another number for subtraction.
-        while(true) {
-            userInput = prompt("Please enter a number to divide.");
-            var check = (userInput == "") ? false : true ;
-                if(check) {
-                if (Number(userInput) || userInput == 0) {
-                    numbers[2] = userInput;
-                    break;
-                }
-            }
-        }
-
-        //Creating a string for the answer.
-        var answer = Number(numbers[0]) / Number(numbers[2]);
-
-        //Showing the answer to the User.
-        console.log(numbers[0] + " / " + numbers[2] + " = " + answer);
+    else if(Number(lotteryCheck[1]) >99 || Number(lotteryCheck[1] < 0))
+    {
+        console.log(("Please pick a number between 0 and 100"))
+        continue;
+    }
+    else if (Number(lotteryCheck[1]))
+    {
+        console.log("You've picked the #"+ lotteryCheck[1])
         break;
     }
     else{
         continue;
     }
 }
+while(true)
+{
+    lotteryCheck[2] = prompt("Please enter the third of your Lottery Numbers.");
+    (lotteryCheck[2] == "") ?check = true:check = false;
+    if(check)
+    {
+        console.log("Please enter something");
+        continue;
+    }
+    else if(Number(lotteryCheck[2]) >99 || Number(lotteryCheck[2] < 0))
+    {
+        console.log(("Please pick a number between 0 and 100"))
+        continue;
+    }
+    else if (Number(lotteryCheck[2]))
+    {
+        console.log("You've picked the #"+ lotteryCheck[2])
+        break;
+    }
+    else{
+        continue;
+    }
+}
+while(true)
+{
+    lotteryCheck[3] = prompt("Please enter the fourth of your Lottery Numbers.");
+    (lotteryCheck[3] == "") ?check = true:check = false;
+    if(check)
+    {
+        console.log("Please enter something");
+        continue;
+    }
+    else if(Number(lotteryCheck[3]) >99 || Number(lotteryCheck[3] < 0))
+    {
+        console.log(("Please pick a number between 0 and 100"))
+        continue;
+    }
+    else if (Number(lotteryCheck[3]))
+    {
+        console.log("You've picked the #"+ lotteryCheck[3])
+        break;
+    }
+    else{
+        continue;
+    }
+}
+while(true)
+{
+    lotteryCheck[4] = prompt("Please enter the fifth of your Lottery Numbers.");
+    (lotteryCheck[4] == "") ?check = true:check = false;
+    if(check)
+    {
+        console.log("Please enter something");
+        continue;
+    }
+    else if(Number(lotteryCheck[4]) >99 || Number(lotteryCheck[4] < 0))
+    {
+        console.log(("Please pick a number between 0 and 100"))
+        continue;
+    }
+    else if (Number(lotteryCheck[4]))
+    {
+        console.log("You've picked the #"+ lotteryCheck[4])
+        break;
+    }
+    else{
+        continue;
+    }
+}
+//telling them the right numbers for the lottery
+console.log("The First Number Today is.....");
+console.log(lottery[0]);
+console.log("The Second Number Today is....");
+console.log((lottery[1]));
+console.log("The Third Number Today is.....");
+console.log(lottery[2]);
+console.log("The Fourth Number Today is....");
+console.log((lottery[3]));
+console.log("The Fifth Number Today is.....");
+console.log(lottery[4]);
+
+// loop to check correctness
+for(var i = 0; i < lottery.length; i++)
+{
+    //if they got it right
+    if(lottery[i] == lotteryCheck[i])
+    {
+        switch(i)
+        {
+            //checking to see what number they got right.
+            //then telling them so
+            case 0:
+                console.log("You got the first number right!");
+                break;
+            case 1:
+                console.log("You got the second number right!");
+                break;
+            case 2:
+                console.log("You got the third number right!");
+                break;
+            case 3:
+                console.log("You got the fourth number right!");
+                break;
+            case 4:
+                console.log("You go the fifth number right!");
+                break;
+        }
+    }
+    else
+    {
+        //checking to see what number they got wrong.
+        //then telling them so
+        switch(i)
+        {
+            case 0:
+                console.log("You got the first number wrong!");
+                break;
+            case 1:
+                console.log("You got the second number wrong!");
+                break;
+            case 2:
+                console.log("You got the third number wrong!");
+                break;
+            case 3:
+                console.log("You got the fourth number wrong!");
+                break;
+            case 4:
+                console.log("You go the fifth number wrong!");
+                break;
+        }
+    }
+}
+//telling you that you won the lottery!!!!!!
+//yay you
+if(lotteryCheck[0] == lottery[0] && lotteryCheck[1] == lottery[1] && lotteryCheck[2] == lottery[2] && lotteryCheck[3] == lottery[3] && lotteryCheck[4] == lottery[4])
+{
+    console.log("HOLY CRAP YOU WON THE FRIGGIN LOTTERY!!!!")
+    console.log("Too bad it's only theoretical:p");
+}
+
+
+//////////////////////
+//    Test Values   //
+//     1,2,3,4,5    //
+//                  //
+//     Outcomes     //
+//Randomly generated//
+//////////////////////
+
+
 
 //The End.
