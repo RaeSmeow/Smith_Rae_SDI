@@ -68,5 +68,9 @@ console.log(I);
          console.log("The value is one.");
      } else if(K == 2){
          console.log("The value is two.");
-     } 
+     }
  }
+
+ //Again I was supposed make a new page but nahh.
+ //Validation.
+ 
