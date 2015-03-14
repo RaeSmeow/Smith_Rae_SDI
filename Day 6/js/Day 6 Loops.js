@@ -37,4 +37,36 @@ Do{
  } while(I < 100);
 
 //Supposed make a new page and stuff but I'ma keep this one.
- 
+
+
+ //Basic For Loop
+ //for(initalization; condition; incriment of change){}
+ //We use I alot in loops. It stands for iteration.
+ for(var I = 0; I < 20; I += 4){
+     console.log("The value of I is " + I);
+ }
+console.log(I);
+
+ //Break in a loop.
+ for(J = 0; J < 5; J++){
+//(var J = 5; J > 0; J--)
+//Conditional to test if we should break the loop.
+//If the value J is J, then console.log something different to stop the loop.
+     if(J === 3){
+         //Stop the loop, but first console.log out something.
+         console.log("J is 3.");
+         break;
+     }
+     console.log("The value of J is" + J);
+ }
+
+ //Specific cases for each value.
+ for(var K = 0; K < 3; K++){
+     if(K === 0){
+         console.log("The value is zero.");
+     } else if(K == 1){
+         console.log("The value is one.");
+     } else if(K == 2){
+         console.log("The value is two.");
+     } 
+ }
