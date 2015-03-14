@@ -66,8 +66,6 @@ while(true)
             }
         }
 
-
-
         //Creating a string for the answer.
         var answer = Number(numbers[0]) + Number(numbers[2]);
 
@@ -88,8 +86,6 @@ while(true)
                 }
             }
         }
-
-
 
         //Creating a string for the answer.
         var answer = Number(numbers[0]) - Number(numbers[2]);
@@ -112,8 +108,6 @@ while(true)
             }
         }
 
-
-
         //Creating a string for the answer.
         var answer = Number(numbers[0]) * Number(numbers[2]);
 
@@ -135,8 +129,6 @@ while(true)
             }
         }
 
-
-
         //Creating a string for the answer.
         var answer = Number(numbers[0]) / Number(numbers[2]);
 
@@ -149,4 +141,4 @@ while(true)
     }
 }
 
-//The End.
+//The End. 
