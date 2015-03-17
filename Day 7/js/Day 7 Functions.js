@@ -80,6 +80,8 @@ for(var I = 0; I < names.length; I ++){
 
 //Keep track of our bills and get the total and average.
 var bills = [50, 10, 5, 20, 10];
+//Create a variable to track the item total.
+var numItems = 0;
 //Create variable for total and average.
 var total = 0;
 var average = 0;
@@ -88,6 +90,7 @@ for(var J = 0; J < bills.length; J++){
     if(bills[J >= 15]){
         //Add each bill to the total.
         total += bills[J];
+        numItems++;
     }
 }
 console.log("The total is "+total+".");
@@ -95,3 +98,4 @@ console.log("The total is "+total+".");
 average = total / bills.length;
 console.log("The average is "+average+".");
 
+//Functions. 
