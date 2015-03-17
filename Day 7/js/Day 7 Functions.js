@@ -27,7 +27,7 @@ for(var I = 99; I > 0; I --) {
 //The CDC wants to know how many zombies there will be in 8 days.
 //Givens that we know.
 
-
+/*
 //How many zombies do we have?
 var numZombies = 1;
 //How many bites per zombie , per day?
@@ -43,7 +43,7 @@ for(var I = 1; I <= days; I++){
     //console.log the results.
     console.log("There are "+numZombies+" number of zombies on Day "+I+"!");
 }
-
+*/
 //How long will it take to get a million zombies?
 var numDays = 1;
  while(numZombies <= 1000000) {
@@ -66,5 +66,32 @@ var numDays = 1;
  }
      console.log("It will take "+(numDays-1)+" days to reach 1 million zombies.");
 
- //Loop Arrays.
- 
+//Loop Arrays.
+//Tell each member of the Scooby Gang that they solved a mystery.
+//Create a Array of gang members.
+var names = ["Scooby Doo", "Shaggy", "Velma", "Daphne", "Fred"];
+//Add Scrappy Doo to the gang.
+names.push("Scrappy Doo");
+//Create For Loop to cycle through the Array.
+for(var I = 0; I < names.length; I ++){
+    //console.log each person.
+    console.log("You solved the case "+names[I]+"!");
+}
+
+//Keep track of our bills and get the total and average.
+var bills = [50, 10, 5, 20, 10];
+//Create variable for total and average.
+var total = 0;
+var average = 0;
+for(var J = 0; J < bills.length; J++){
+    //Only add them if they are equal to or over $15.
+    if(bills[J >= 15]){
+        //Add each bill to the total.
+        total += bills[J];
+    }
+}
+console.log("The total is "+total+".");
+//Calculate the average.
+average = total / bills.length;
+console.log("The average is "+average+".");
+
