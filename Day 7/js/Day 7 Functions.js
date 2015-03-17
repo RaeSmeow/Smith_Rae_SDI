@@ -161,17 +161,17 @@ console.log("After the function call, width = "+width+".");
 //Goes into the functions. Part of the function call.
 //Parameters catch the arguments and are in the function definition.
 //Create a function that calculates the area of a rectangle.
-function calcArea(){
-    var width = 10;
+function calcArea1(){
+    var width2 = 10;
     var height = 20;
     var area = width * height;
     console.log("The area is "+ area);
 }
 //Call out function
 //Add arguments to the function call.
-calcArea(10,20);
+calcArea1(10,20);
 //Prompt the user for width and height.
-var width = prompt("Enter a width.");
+var width2 = prompt("Enter a width.");
 //Should be putting in a validation.
 var height = prompt("Enter a height.");
 //Again, enter a validation.
@@ -189,3 +189,33 @@ dogYears(7);
 var userInput = prompt("Please enter your human age.");
 //Call the dog function.
 dogYears(userInput);
+
+//Return.
+//Return a value from a function to our Main Code.
+function calcArea2(){
+    //Calc Area.
+    var area2 = w*h;
+    console.log("Inside the function the area is "+area+".");
+}
+//Call the function.
+//Create a variable to catch the return value.
+var rectArea = calcArea2(10,20);
+//Console.log the area.
+//console.log(area2);
+console.log(rectArea);
+
+//Create a function to calculate the area of a circle.
+function circleArea(R){
+    //Calculate the area. Pi * Radius Squared.
+    var area = Math.PI * R * R;
+    //Return the value.
+    return area;
+}
+//Function call this circleArea.
+//Create a variable to catch the returned area.
+var circArea = circleArea(6);
+//Console.log the results.
+console.log("The area of the circle is "+circArea+".");
+//What is twice the circle area of a 5" circle?
+var resultsTwice = circArea*2;
+console.log("Twice the area is "+resultsTwice+".");
