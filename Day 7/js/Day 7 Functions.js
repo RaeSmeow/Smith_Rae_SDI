@@ -98,4 +98,33 @@ console.log("The total is "+total+".");
 average = total / bills.length;
 console.log("The average is "+average+".");
 
-//Functions. 
+//Functions.
+//Basic structure of a function.
+//function functionName(){code to run}
+//Create a function that will console.log out "Hello!".
+function printHello(){
+    console.log("Hello!");
+}
+//Create a function that prints out more text.
+function printMore(){
+    console.log("Prints more text.");
+}
+//Function call the printHello function.
+//functionName();
+printHello();
+printMore();
+printHello();
+//Function call the printMore.
+printMore();
+
+//Create a function that calculates the area of a rectangle.
+function calcArea(){
+    //Create variables for width, height, and area.
+    var width = 20;
+    var height = 30;
+    var area = width * height;
+    //Print out the area.
+    console.log("The area is "+area+".");
+}
+//Function call the calcArea.
+calcArea();
