@@ -26,6 +26,8 @@ for(var I = 99; I > 0; I --) {
 //A zombie can bite 4 people a day and infect them the next day.
 //The CDC wants to know how many zombies there will be in 8 days.
 //Givens that we know.
+
+
 //How many zombies do we have?
 var numZombies = 1;
 //How many bites per zombie , per day?
@@ -41,4 +43,28 @@ for(var I = 1; I <= days; I++){
     //console.log the results.
     console.log("There are "+numZombies+" number of zombies on Day "+I+"!");
 }
+
 //How long will it take to get a million zombies?
+var numDays = 1;
+ while(numZombies <= 1000000) {
+     //How many zombies do we have?
+     var numZombies = 1;
+//How many bites per zombie , per day?
+     var numBites = 4;
+//Number of days the CDC wants.
+     var days = 8;
+//Create a For Loop to calculate the zombie number.
+     for (var I = 1; I <= days; I++) {
+         //How many new zombies turn every day?
+         var newZombies = numZombies * numBites;
+         //Add the new zombies to the existing horde.
+         numZombies += newZombies;
+         //console.log the results.
+         console.log("There are " + numZombies + " number of zombies on Day " + numDays + "!");
+         numDays++;
+     }
+ }
+     console.log("It will take "+(numDays-1)+" days to reach 1 million zombies.");
+
+ //Loop Arrays.
+ 
