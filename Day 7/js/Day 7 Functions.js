@@ -130,3 +130,29 @@ function calcArea(){
 calcArea();
 
 //Scope.
+//Variable Scope.
+//Variables inside and outside of a function.
+//Try not to use the same variable names.
+//In big files this is going to be impossible.
+//Create a variable for width within our main code.
+//Scoped outside of the function - "Main Code".
+var width = 5;
+//Create a function that calculates the perimeter of a rectangle.
+function calcPeri(){
+    //Create a variable called width inside the function.
+    //Scoped to the function calcPeri.
+    var width = 10;
+    //Create a variable for height and perimeter.
+    var height = 20;
+    var perimeter = width * 2 + height * 2;
+    console.log("Inside of the function, the perimeter is "+perimeter);
+    //Variables created inside of a function can not be accessed outside of the function.
+    //Variables created outside of the function can be accessed but usually will not be.
+}
+console.log("Before the function call, width = "+ width+".");
+//Function call the calcPeri.
+calcPeri();
+console.log("After the function call, width = "+width+".");
+//Console.log the answer.
+//This does not work, Vegas.
+//console.log("Outside of the function, the perimeter is"+perimeter);
