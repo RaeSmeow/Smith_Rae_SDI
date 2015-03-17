@@ -128,3 +128,5 @@ function calcArea(){
 }
 //Function call the calcArea.
 calcArea();
+
+//Scope.
