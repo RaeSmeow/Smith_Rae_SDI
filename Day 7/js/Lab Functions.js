@@ -16,7 +16,7 @@ Day 7 Lab
     var circumference = 2* Math.PI*radius;
      return circumference;
  }
- console.log(circumference(radius));
+ console.log("The circumference of the circle is "+circumference(radius)+".");
 
  //Stung
  function beeStings(weight)
@@ -24,4 +24,4 @@ Day 7 Lab
      var stings = 8.666666667*weight;
      return stings;
  }
- console.log((weight));
+ console.log("It takes "+beeStings(weight)+" stings to kill this animal.");
