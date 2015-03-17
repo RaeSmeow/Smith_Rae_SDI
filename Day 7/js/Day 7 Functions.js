@@ -156,3 +156,36 @@ console.log("After the function call, width = "+width+".");
 //Console.log the answer.
 //This does not work, Vegas.
 //console.log("Outside of the function, the perimeter is"+perimeter);
+
+//Arguments.
+//Goes into the functions. Part of the function call.
+//Parameters catch the arguments and are in the function definition.
+//Create a function that calculates the area of a rectangle.
+function calcArea(){
+    var width = 10;
+    var height = 20;
+    var area = width * height;
+    console.log("The area is "+ area);
+}
+//Call out function
+//Add arguments to the function call.
+calcArea(10,20);
+//Prompt the user for width and height.
+var width = prompt("Enter a width.");
+//Should be putting in a validation.
+var height = prompt("Enter a height.");
+//Again, enter a validation.
+calcArea(width, height);
+
+//Dog Years.
+function dogYears(humanAge){
+    //Dog years = human years * 7.
+    var dogAge = humanAge * 7;
+    console.log("Your age in dog years is "+dogAge+".");
+}
+//Call the dog function.
+dogYears(7);
+//Prompt the User for Human age.
+var userInput = prompt("Please enter your human age.");
+//Call the dog function.
+dogYears(userInput);
