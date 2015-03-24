@@ -49,4 +49,3 @@ function Calculator(first, sign, second)
 
 var answer = Calculator(InputNumber(), InputSign(), InputNumber());
 console.log(answer);
-
