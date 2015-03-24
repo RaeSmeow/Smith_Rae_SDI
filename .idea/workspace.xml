@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d8c77f7-4f02-4fd2-b1d5-d9bdd2bec5c2" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day3/Day3Arrays.html" afterPath="$PROJECT_DIR$/Day 3/Day3Arrays.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day3/Day3Casting.html" afterPath="$PROJECT_DIR$/Day 3/Day3Casting.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day3/Day3Prompts.html" afterPath="$PROJECT_DIR$/Day 3/Day3Prompts.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day3/js/Day3Arrays.js" afterPath="$PROJECT_DIR$/Day 3/js/Day3Arrays.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day3/js/Day3Casting.js" afterPath="$PROJECT_DIR$/Day 3/js/Day3Casting.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day3/js/Day3Prompts.js" afterPath="$PROJECT_DIR$/Day 3/js/Day3Prompts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day5/Day 5 Nesting Ifs.html" afterPath="$PROJECT_DIR$/Day 5/Day 5 Nesting Ifs.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day5/Day5Steaks.html" afterPath="$PROJECT_DIR$/Day 5/Day5Steaks.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day5/js/Day 5 Nesting Ifs.js" afterPath="$PROJECT_DIR$/Day 5/js/Day 5 Nesting Ifs.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Day5/js/Day 5 Steaks.js" afterPath="$PROJECT_DIR$/Day 5/js/Day 5 Steaks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Smith_Rae_Functions_Assignment/js/Smith_Rae_Functions_Assignment.js" afterPath="$PROJECT_DIR$/Smith_Rae_Functions_Assignment/js/Smith_Rae_Functions_Assignment.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Day 8/js/Day 8.js" afterPath="$PROJECT_DIR$/Day 8/js/Day 8.js" />
     </list>
     <ignored path="Smith_Rae_SDI.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,8 +41,8 @@
       <file leaf-file-name="Day 8.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day 8/js/Day 8.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.17777778" vertical-offset="0" max-vertical-offset="675">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.22222222" vertical-offset="0" max-vertical-offset="675">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -112,8 +102,8 @@
         <option value="$PROJECT_DIR$/Day 7/js/Lab Functions.js" />
         <option value="$PROJECT_DIR$/Smith_Rae_Functions_Assignment/Smith_Rae_Functions_Assignment.html" />
         <option value="$PROJECT_DIR$/Smith_Rae_Functions_Assignment/js/Smith_Rae_Functions_Assignment.js" />
-        <option value="$PROJECT_DIR$/Day 8/js/Day 8.js" />
         <option value="$PROJECT_DIR$/Day 8/Day 8.html" />
+        <option value="$PROJECT_DIR$/Day 8/js/Day 8.js" />
       </list>
     </option>
   </component>
@@ -746,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day 8/js/Day 8.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17777778" vertical-offset="0" max-vertical-offset="675">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.22222222" vertical-offset="0" max-vertical-offset="675">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
