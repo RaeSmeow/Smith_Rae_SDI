@@ -23,16 +23,21 @@ function InputNumber()
 function InputSign()
 {
     while(true) {
-        userInput = prompt("Would you like to Add or Subtract?");
+        userInput = prompt("Would you like to Add, Subtract, Multiply, or Divide?");
         if(userInput == "" ){
             continue;
         }
-        if (userInput == "add" || numbers[1] == "Add") {
+        if (userInput == "Add" || numbers[1] == "add") {
             return '+';
         }
         if (userInput == "Subtract" || numbers[1] == "subtract") {
             return '-';
         }
+        if (userInput == "Multiply" || numbers[1] == "multiply") {
+            return '*';
+        }
+        if (userInput == "Divide" || numbers[1] == "divide") {
+            return '/';
     }
 }
 function Calculator(first, sign, second)
