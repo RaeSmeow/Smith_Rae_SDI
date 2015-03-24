@@ -6,7 +6,7 @@ Functions Assignment
 */
 
 //alert("Just testing.");
-//Initializing an array.
+//First function.
 
 function InputNumber()
 {
@@ -48,7 +48,6 @@ function InputSign() {
             return (first - second);
         }
     }
-
     var answer = Calculator(InputNumber(), InputSign(), InputNumber());
     console.log(answer);
 }
@@ -58,4 +57,4 @@ function InputSign() {
 //Subtraction: 25-17=8.
 //Multiplication: 7*6=42.
 //Division: 8/2=4.
-//The End.
+//The End. 
