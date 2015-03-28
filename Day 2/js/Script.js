@@ -132,7 +132,7 @@ console.log(frogName);
 
 //To double quote or not to double quote
 //  Can use an escape character / backslash in front of the '
-var phrase = "I don/'t know";
+var phrase = "I don't know";
 console.log(phrase);
 
 

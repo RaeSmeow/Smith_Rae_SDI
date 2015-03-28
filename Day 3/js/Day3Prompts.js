@@ -29,4 +29,4 @@ var area = width*height;
 console.log("The area of the rectangle with a height of "+height+"  and a width of "+width+" is "+area+".");
 
 var results = "The results of the area are "+area;
-console.log(results):
+console.log(results);
